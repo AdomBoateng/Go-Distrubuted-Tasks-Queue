@@ -25,8 +25,8 @@ func main() {
 	// Create a new task payload (for sending mail)
 	payload := EmailTaskPayload{  // **use the same struct as in worker**
 		UserID: "001",
-		Recipient: "gboateng@quantumgroupgh.com",
-		Subject:   "Hello Quantum Group",
+		Recipient: "craxybaboon6@gmal.com",
+		Subject:   "Hello Craxy",
         Body:      "This is a test mail from asynq",
     }
 
